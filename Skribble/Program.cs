@@ -1,11 +1,4 @@
-﻿using System.Drawing;
-using System.Globalization;
-using System.Net.Mime;
-using System.Reflection;
-using Emgu.CV;
-using Emgu.CV.Cuda;
-using Emgu.CV.CvEnum;
-using Skribble;
+﻿using Skribble;
 
 class program{
 

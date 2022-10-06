@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
 using System.Net.Mime;
 using System.Reflection;
@@ -42,11 +43,11 @@ public class GetColor{
     public String getColorName(int c1, int c2){
 
 
+
         var image = img[c1, c2];
         string colorName;
         Color c = Color.LightBlue;
-
-        Color LColors = new();
+        ;
         Color limitedColors = Color.FromArgb((int)image.Red, (int)image.Green,
             (int)image.Blue);
 
@@ -54,15 +55,15 @@ public class GetColor{
         return colorName;
     }
 
-    
 
+    [SuppressMessage("ReSharper.DPA", "DPA0002: Excessive memory allocations in SOH", MessageId = "type: System.Drawing.Color; size: 223MB")]
     public string GetSkribbleColor(int c1, int c2){
 
-        string colorname = getColorName(c1, c2);
-      //  if (colorname == "White") return null;
+        var colorName = getColorName(c1, c2);
+        //  if (colorname == "White") return null;
         //Console.Write(colorname + " | ");
-        
-        return (getColorName(c1, c2) switch{
+
+        return ((colorName) switch{
             "AliceBlue" => "Aqua",
             "AntiqueWhite" => "LightGray",
             "Aqua" => "Aqua",
