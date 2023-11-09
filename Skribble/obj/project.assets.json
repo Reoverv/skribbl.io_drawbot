@@ -1,7 +1,20 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0-windows7.0": {
+      "cmdwtf.Dithering/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.2",
+          "runtime.osx.10.10-x64.CoreCompat.System.Drawing": "5.8.64"
+        },
+        "compile": {
+          "lib/net5.0/cmdwtf.Dithering.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/cmdwtf.Dithering.dll": {}
+        }
+      },
       "Emgu.CV/4.5.5.4823": {
         "type": "package",
         "dependencies": {
@@ -116,7 +129,7 @@
           }
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.1": {
+      "Microsoft.NETCore.Platforms/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/_._": {}
@@ -134,6 +147,28 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -145,6 +180,95 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "runtime.osx.10.10-x64.CoreCompat.System.Drawing/5.8.64": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libcairo.2.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libfontconfig.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libfreetype.6.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libgdiplus-lighthouse.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libgdiplus.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libgif.7.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libglib-2.0.0.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libintl.8.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libjpeg.9.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libpcre.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libpixman-1.0.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libpng16.16.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libtiff.5.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Drawing.Primitives/4.3.0": {
@@ -369,6 +493,20 @@
     }
   },
   "libraries": {
+    "cmdwtf.Dithering/1.3.1": {
+      "sha512": "rdf2zALSHZp3h23qJwOHH3HVieuxiUpTBIWCzo6r2uXsNmSOzmivV5kjZdSXjJ/dGwOfZCzk1fsJRObmXeCLVg==",
+      "type": "package",
+      "path": "cmdwtf.dithering/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon48.png",
+        "cmdwtf.dithering.1.3.1.nupkg.sha512",
+        "cmdwtf.dithering.nuspec",
+        "lib/net5.0/cmdwtf.Dithering.dll",
+        "lib/netstandard2.1/cmdwtf.Dithering.dll"
+      ]
+    },
     "Emgu.CV/4.5.5.4823": {
       "sha512": "TmiMwyjh1/WZwnjNFF2PZmenI1cZqjtm6l9/8icXk7MMGwkd19DqX7s9igSgIgzqQqYXABW6ECOi56GbNTJHJA==",
       "type": "package",
@@ -446,19 +584,22 @@
         "runtimes/win-x86/native/vcruntime140.dll"
       ]
     },
-    "Microsoft.NETCore.Platforms/1.1.1": {
-      "sha512": "TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
       "type": "package",
-      "path": "microsoft.netcore.platforms/1.1.1",
+      "path": "microsoft.netcore.platforms/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
-        "runtime.json"
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Targets/1.1.3": {
@@ -476,6 +617,34 @@
         "runtime.json"
       ]
     },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "runtime.native.System/4.3.0": {
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
@@ -488,6 +657,73 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "runtime.osx.10.10-x64.CoreCompat.System.Drawing/5.8.64": {
+      "sha512": "Ey7xQgWwixxdrmhzEUvaR4kxZDSQMWQScp8ViLvmL5xCBKG6U3TaMv/jzHilpfQXpHmJ4IylKGzzMvnYX2FwHQ==",
+      "type": "package",
+      "path": "runtime.osx.10.10-x64.corecompat.system.drawing/5.8.64",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll",
+        "runtime.osx.10.10-x64.corecompat.system.drawing.5.8.64.nupkg.sha512",
+        "runtime.osx.10.10-x64.corecompat.system.drawing.nuspec",
+        "runtimes/osx-x64/native/libcairo.2.dylib",
+        "runtimes/osx-x64/native/libfontconfig.1.dylib",
+        "runtimes/osx-x64/native/libfreetype.6.dylib",
+        "runtimes/osx-x64/native/libgdiplus-lighthouse.dylib",
+        "runtimes/osx-x64/native/libgdiplus.dylib",
+        "runtimes/osx-x64/native/libgif.7.dylib",
+        "runtimes/osx-x64/native/libglib-2.0.0.dylib",
+        "runtimes/osx-x64/native/libintl.8.dylib",
+        "runtimes/osx-x64/native/libjpeg.9.dylib",
+        "runtimes/osx-x64/native/libpcre.1.dylib",
+        "runtimes/osx-x64/native/libpixman-1.0.dylib",
+        "runtimes/osx-x64/native/libpng16.16.dylib",
+        "runtimes/osx-x64/native/libtiff.5.dylib"
+      ]
+    },
+    "System.Drawing.Common/5.0.2": {
+      "sha512": "rvr/M1WPf24ljpvvrVd74+NdjRUJu1bBkspkZcnzSZnmAUQWSvanlQ0k/hVHk+cHufZbZfu7vOh/vYc0q5Uu/A==",
+      "type": "package",
+      "path": "system.drawing.common/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.5.0.2.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Drawing.Primitives/4.3.0": {
@@ -1468,9 +1704,10 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0-windows7.0": [
       "Emgu.CV >= 4.5.5.4823",
-      "Emgu.CV.runtime.windows >= 4.5.5.4823"
+      "Emgu.CV.runtime.windows >= 4.5.5.4823",
+      "cmdwtf.Dithering >= 1.3.1"
     ]
   },
   "packageFolders": {
@@ -1479,26 +1716,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\remco\\OneDrive - De Haagse Hogeschool\\Programming stuff\\Rider Projects\\Skribble\\Skribble\\Skribble.csproj",
+      "projectUniqueName": "D:\\onedrive school\\OneDrive - De Haagse Hogeschool\\Programming stuff\\Rider Projects\\Skribble\\Skribble\\Skribble.csproj",
       "projectName": "Skribble",
-      "projectPath": "C:\\Users\\remco\\OneDrive - De Haagse Hogeschool\\Programming stuff\\Rider Projects\\Skribble\\Skribble\\Skribble.csproj",
+      "projectPath": "D:\\onedrive school\\OneDrive - De Haagse Hogeschool\\Programming stuff\\Rider Projects\\Skribble\\Skribble\\Skribble.csproj",
       "packagesPath": "C:\\Users\\remco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\remco\\OneDrive - De Haagse Hogeschool\\Programming stuff\\Rider Projects\\Skribble\\Skribble\\obj\\",
+      "outputPath": "D:\\onedrive school\\OneDrive - De Haagse Hogeschool\\Programming stuff\\Rider Projects\\Skribble\\Skribble\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\remco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\remco\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "projectReferences": {}
         }
       },
@@ -1509,8 +1744,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
         "dependencies": {
           "Emgu.CV": {
             "target": "Package",
@@ -1519,6 +1754,10 @@
           "Emgu.CV.runtime.windows": {
             "target": "Package",
             "version": "[4.5.5.4823, )"
+          },
+          "cmdwtf.Dithering": {
+            "target": "Package",
+            "version": "[1.3.1, )"
           }
         },
         "imports": [
@@ -1535,9 +1774,12 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
       }
     }
   }

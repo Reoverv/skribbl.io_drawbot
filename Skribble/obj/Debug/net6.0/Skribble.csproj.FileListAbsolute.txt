@@ -34,3 +34,79 @@ C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\
 C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140_atomic_wait.dll
 C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
 C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\vcruntime140.dll
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\cmdwtf.Dithering.dll
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libcairo.2.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libfontconfig.1.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libfreetype.6.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libgdiplus-lighthouse.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libgdiplus.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libgif.7.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libglib-2.0.0.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libintl.8.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libjpeg.9.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libpcre.1.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libpixman-1.0.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libpng16.16.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libtiff.5.dylib
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\remco\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Skribble.exe
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Skribble.deps.json
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Skribble.runtimeconfig.json
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Skribble.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Skribble.pdb
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\cmdwtf.Dithering.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Emgu.CV.Platform.NetStandard.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtime.osx.10.10-x64.CoreCompat.System.Drawing.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\cvextern.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\opencv_videoio_ffmpeg455_64.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\cvextern.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\opencv_videoio_ffmpeg455.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\concrt140.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\msvcp140.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\msvcp140_1.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\msvcp140_2.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\vcruntime140.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x64\native\vcruntime140_1.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\concrt140.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140_1.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140_2.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win-x86\native\vcruntime140.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libcairo.2.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libfontconfig.1.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libfreetype.6.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libgdiplus-lighthouse.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libgdiplus.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libgif.7.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libglib-2.0.0.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libintl.8.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libjpeg.9.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libpcre.1.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libpixman-1.0.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libpng16.16.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\osx-x64\native\libtiff.5.dylib
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.csproj.AssemblyReference.cache
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.GeneratedMSBuildEditorConfig.editorconfig
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.AssemblyInfoInputs.cache
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.AssemblyInfo.cs
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.csproj.CoreCompileInputs.cache
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.csproj.CopyComplete
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\refint\Skribble.dll
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.pdb
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\Skribble.genruntimeconfig.cache
+D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Skribble\obj\Debug\net6.0\ref\Skribble.dll
