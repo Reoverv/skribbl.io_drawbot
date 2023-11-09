@@ -8,8 +8,6 @@ class program{
     public static void Main(string[] args){
         Console.Write("Image link: ");
         var url = Console.ReadLine();
-        // var url =
-        //     "https://steamuserimages-a.akamaihd.net/ugc/2008094604191140266/E46C53A36D8188A60C9D31E7E04ADBCE6AC410B2/";
         string path =
             @"D:\onedrive school\OneDrive - De Haagse Hogeschool\Programming stuff\Rider Projects\Skribble\Images\Download.png";
 
